@@ -22,7 +22,7 @@ export default function Signup() {
       address: userDetails.address,
     });
     try {
-      const result = await fetch("http://localhost:8000/api/signup", {
+      const result = await fetch("https://myfood-mern.onrender.com/api/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -14,7 +14,7 @@ export default function FetchFoodItems() {
     const signal = controller.signal;
 
     dispatch(fetchItemStatusActions.markFetchingStarted());
-    fetch("http://localhost:8000/api/items", { signal })
+    fetch("https://myfood-mern.onrender.com/api/items", { signal })
       .then((res) => res.json())
       .then((items) => {
         dispatch(fetchItemStatusActions.markFetchDone());

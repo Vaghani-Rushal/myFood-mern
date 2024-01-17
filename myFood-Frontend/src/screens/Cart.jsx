@@ -44,7 +44,7 @@ export default function Cart({ onClose }) {
       });
 
       const result = await fetch(
-        "http://localhost:8000/api/orders/updateorder",
+        "https://myfood-mern.onrender.com/api/orders/updateorder",
         {
           method: "POST",
           headers: {

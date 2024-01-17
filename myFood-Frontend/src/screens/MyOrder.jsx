@@ -18,7 +18,7 @@ export default function MyOrder() {
 
   const fetchMyOrder = async () => {
     dispatch(fetchOrderStatusActions.markFetchingStarted());
-    const result = await fetch("http://localhost:8000/api/orders/getorder", {
+    const result = await fetch("https://myfood-mern.onrender.com/api/orders/getorder", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ userId: userId }),

@@ -15,7 +15,7 @@ export default function Login() {
       password: userDetails.password,
     });
     try {
-      const result = await fetch("http://localhost:8000/api/login", {
+      const result = await fetch("https://myfood-mern.onrender.com/api/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
