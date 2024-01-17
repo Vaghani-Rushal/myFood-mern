@@ -1,0 +1,8 @@
+.custom-alert-container {
+  position: fixed;
+  top: 95px;
+  left: 85%;
+  transform: translateX(-40%);
+  width: fit-content;
+  z-index: 10000;
+}
