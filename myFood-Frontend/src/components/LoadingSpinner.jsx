@@ -13,6 +13,9 @@ export default function LoadingSpinner() {
       <div className="d-flex justify-content-center my-3 fs-4">
         Please wait, It will take time due to slow deploy server.
       </div>
+      <div className="d-flex justify-content-center my-3 fs-4">
+        If it take more time then, Refresh the page!!!
+      </div>
     </>
   );
 }
